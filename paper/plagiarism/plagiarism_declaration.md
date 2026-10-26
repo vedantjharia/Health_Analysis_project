@@ -1,11 +1,10 @@
 # Academic Honesty & Plagiarism Clearance Protocol
 
-**Course**: Business Intelligence / Machine Learning Mini-Project (CA3)  
+**Course**:  Machine Learning Mini-Project (CA3)  
 **Institution**: Symbiosis Institute of Technology, Nagpur  
 **Symbiosis International (Deemed University), Pune, India**  
 **Student Name**: Vedant Jharia  
 **Email**: `vedant.jharia.btech2023@sitnagpur.siu.edu.in`  
-**Co-Author**: [Co-Author / Team Member Name] (PRN: [Insert PRN])  
 **Project Title**: Explainable Machine Learning for Biosignal Heart Health Risk Assessment Using Continuous ECG and Respiratory Signals  
 
 ---
