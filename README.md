@@ -10,14 +10,11 @@
 ---
 
 ## 🏛️ Official Project Information
-- **Course**: Business Intelligence / Machine Learning Mini-Project (CA3)
+- **Course**: Machine Learning Mini-Project 
 - **Institution**: Symbiosis Institute of Technology (SIT), Nagpur
 - **Affiliation**: Symbiosis International (Deemed University), Pune, India
-- **Submission Deadline**: 24 October 2026, 8:00 PM IST
 - **Research Team**:
   - **Vedant Jharia** — Email: `vedant.jharia.btech2023@sitnagpur.siu.edu.in`
-  - **[Co-Author / Team Member Name]** — PRN: `[Insert PRN]`
-
 ---
 
 ## 📖 Executive Summary
