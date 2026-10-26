@@ -1,0 +1,19 @@
+Feature,Clinical Label,Mean |SHAP Value|,Physiological Mechanism,Rank
+lf_power,"LF Power (Sympathovagal, ms²)",0.0763,Biomarker of autonomic cardiovascular regulation.,1
+sd2,Poincaré SD2 (Long-term Var),0.0722,"Poincaré continuous long-term dispersion, reflecting systemic regulatory flexibility.",2
+cpc_phase_coherence,CPC Phase Coherence Index,0.0716,Phase stability between respiratory oscillations and heart rate rhythms.,3
+sdnn,SDNN (ms),0.0547,Overall autonomic variability; reduction reflects cardiac vulnerability and loss of neurocardiac responsiveness.,4
+pnn50,pNN50 (%),0.0474,Fraction of consecutive beats differing >50ms; sensitive barometer of respiratory vagal modulation.,5
+total_power,Total Spectral Power (ms²),0.0364,Total autonomic spectral reserve across all regulatory frequency bands.,6
+rsa_amplitude,"RSA Amplitude (Peak-Trough, ms)",0.0359,Magnitude of Respiratory Sinus Arrhythmia; collapses during cardiac degradation and autonomic aging.,7
+cpc_cross_corr_max,CPC Max Cross-Correlation,0.0206,Measures cardiorespiratory phase synchronization; uncoupling denotes impaired baroreflex-respiratory coordination.,8
+mean_rr,Mean RR (ms),0.0124,Biomarker of autonomic cardiovascular regulation.,9
+rmssd,"RMSSD (Vagal Tone, ms)",0.0079,Root mean square of successive differences directly indexes parasympathetic vagal tone; depression indicates autonomic blunting.,10
+lf_nu,Normalized LF (n.u.),0.0065,Biomarker of autonomic cardiovascular regulation.,11
+hf_nu,Normalized HF (n.u.),0.0063,Biomarker of autonomic cardiovascular regulation.,12
+sd1_sd2_ratio,SD1/SD2 Ratio,0.0023,Biomarker of autonomic cardiovascular regulation.,13
+sd1,Poincaré SD1 (Short-term Var),0.0021,"Poincaré short-term beat-to-beat variability, tightly correlated with RMSSD.",14
+lf_hf_ratio,LF/HF Ratio (Autonomic Balance),0.0017,Sympathovagal balance marker; elevation indicates sympathetic hyperactivation or vagal withdrawal.,15
+hf_power,"HF Power (Parasympathetic, ms²)",0.0016,High-frequency spectral band (0.15-0.40 Hz); reflects pure vagal parasympathetic modulation.,16
+mean_resp_rate,Respiration Rate (breaths/min),0.0014,Resting respiratory frequency; tachypnea or irregularity frequently accompanies cardiopulmonary strain.,17
+vlf_power,VLF Power (ms²),0.0012,Biomarker of autonomic cardiovascular regulation.,18

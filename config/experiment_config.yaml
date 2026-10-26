@@ -1,0 +1,106 @@
+# Configuration for Biosignal Heart Health Risk Assessment
+dataset:
+  name: "PhysioNet Fantasia Database"
+  url: "https://physionet.org/content/fantasia/"
+  fs: 250
+  channels:
+    ecg: "ECG"
+    resp: "RESP"
+  cohort:
+    young_records:
+      - "f1y01"
+      - "f1y02"
+      - "f1y03"
+      - "f1y04"
+      - "f1y05"
+      - "f1y06"
+      - "f1y07"
+      - "f1y08"
+      - "f1y09"
+      - "f1y10"
+    elderly_records:
+      - "f1o01"
+      - "f1o02"
+      - "f1o03"
+      - "f1o04"
+      - "f1o05"
+      - "f1o06"
+      - "f1o07"
+      - "f1o08"
+      - "f1o09"
+      - "f1o10"
+  duration_per_subject_sec: 900 # 15 minutes per subject (225,000 samples at 250 Hz)
+  window_sec: 300 # 5-minute standard clinical window
+  overlap_sec: 150 # 50% overlap giving multiple windows per subject
+
+signal_processing:
+  ecg:
+    filter_type: "butterworth"
+    order: 4
+    lowcut: 0.5
+    highcut: 45.0
+  respiration:
+    filter_type: "butterworth"
+    order: 3
+    lowcut: 0.05
+    highcut: 0.5
+
+features:
+  time_domain:
+    - "mean_rr"
+    - "sdnn"
+    - "rmssd"
+    - "pnn50"
+    - "sd1"
+    - "sd2"
+    - "sd1_sd2_ratio"
+  frequency_domain:
+    - "vlf_power"
+    - "lf_power"
+    - "hf_power"
+    - "total_power"
+    - "lf_hf_ratio"
+    - "lf_nu"
+    - "hf_nu"
+  cpc:
+    - "mean_resp_rate"
+    - "rsa_amplitude"
+    - "cpc_cross_corr_max"
+    - "cpc_phase_coherence"
+
+evaluation:
+  random_seed: 42
+  test_subjects:
+    - "f1y09"
+    - "f1y10"
+    - "f1o09"
+    - "f1o10"
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "specificity"
+    - "f1"
+    - "roc_auc"
+    - "balanced_accuracy"
+
+models:
+  logistic_regression:
+    C: 1.0
+    solver: "lbfgs"
+    max_iter: 1000
+    random_state: 42
+  random_forest:
+    n_estimators: 100
+    max_depth: 5
+    random_state: 42
+  svm:
+    C: 1.0
+    kernel: "rbf"
+    probability: true
+    random_state: 42
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.08
+    max_depth: 3
+    random_state: 42

@@ -1,0 +1,128 @@
+[
+    {
+        "Feature": "lf_power",
+        "Clinical Label": "LF Power (Sympathovagal, ms\u00b2)",
+        "Mean |SHAP Value|": 0.0763,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 1
+    },
+    {
+        "Feature": "sd2",
+        "Clinical Label": "Poincar\u00e9 SD2 (Long-term Var)",
+        "Mean |SHAP Value|": 0.0722,
+        "Physiological Mechanism": "Poincar\u00e9 continuous long-term dispersion, reflecting systemic regulatory flexibility.",
+        "Rank": 2
+    },
+    {
+        "Feature": "cpc_phase_coherence",
+        "Clinical Label": "CPC Phase Coherence Index",
+        "Mean |SHAP Value|": 0.0716,
+        "Physiological Mechanism": "Phase stability between respiratory oscillations and heart rate rhythms.",
+        "Rank": 3
+    },
+    {
+        "Feature": "sdnn",
+        "Clinical Label": "SDNN (ms)",
+        "Mean |SHAP Value|": 0.0547,
+        "Physiological Mechanism": "Overall autonomic variability; reduction reflects cardiac vulnerability and loss of neurocardiac responsiveness.",
+        "Rank": 4
+    },
+    {
+        "Feature": "pnn50",
+        "Clinical Label": "pNN50 (%)",
+        "Mean |SHAP Value|": 0.0474,
+        "Physiological Mechanism": "Fraction of consecutive beats differing >50ms; sensitive barometer of respiratory vagal modulation.",
+        "Rank": 5
+    },
+    {
+        "Feature": "total_power",
+        "Clinical Label": "Total Spectral Power (ms\u00b2)",
+        "Mean |SHAP Value|": 0.0364,
+        "Physiological Mechanism": "Total autonomic spectral reserve across all regulatory frequency bands.",
+        "Rank": 6
+    },
+    {
+        "Feature": "rsa_amplitude",
+        "Clinical Label": "RSA Amplitude (Peak-Trough, ms)",
+        "Mean |SHAP Value|": 0.0359,
+        "Physiological Mechanism": "Magnitude of Respiratory Sinus Arrhythmia; collapses during cardiac degradation and autonomic aging.",
+        "Rank": 7
+    },
+    {
+        "Feature": "cpc_cross_corr_max",
+        "Clinical Label": "CPC Max Cross-Correlation",
+        "Mean |SHAP Value|": 0.0206,
+        "Physiological Mechanism": "Measures cardiorespiratory phase synchronization; uncoupling denotes impaired baroreflex-respiratory coordination.",
+        "Rank": 8
+    },
+    {
+        "Feature": "mean_rr",
+        "Clinical Label": "Mean RR (ms)",
+        "Mean |SHAP Value|": 0.0124,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 9
+    },
+    {
+        "Feature": "rmssd",
+        "Clinical Label": "RMSSD (Vagal Tone, ms)",
+        "Mean |SHAP Value|": 0.0079,
+        "Physiological Mechanism": "Root mean square of successive differences directly indexes parasympathetic vagal tone; depression indicates autonomic blunting.",
+        "Rank": 10
+    },
+    {
+        "Feature": "lf_nu",
+        "Clinical Label": "Normalized LF (n.u.)",
+        "Mean |SHAP Value|": 0.0065,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 11
+    },
+    {
+        "Feature": "hf_nu",
+        "Clinical Label": "Normalized HF (n.u.)",
+        "Mean |SHAP Value|": 0.0063,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 12
+    },
+    {
+        "Feature": "sd1_sd2_ratio",
+        "Clinical Label": "SD1/SD2 Ratio",
+        "Mean |SHAP Value|": 0.0023,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 13
+    },
+    {
+        "Feature": "sd1",
+        "Clinical Label": "Poincar\u00e9 SD1 (Short-term Var)",
+        "Mean |SHAP Value|": 0.0021,
+        "Physiological Mechanism": "Poincar\u00e9 short-term beat-to-beat variability, tightly correlated with RMSSD.",
+        "Rank": 14
+    },
+    {
+        "Feature": "lf_hf_ratio",
+        "Clinical Label": "LF/HF Ratio (Autonomic Balance)",
+        "Mean |SHAP Value|": 0.0017,
+        "Physiological Mechanism": "Sympathovagal balance marker; elevation indicates sympathetic hyperactivation or vagal withdrawal.",
+        "Rank": 15
+    },
+    {
+        "Feature": "hf_power",
+        "Clinical Label": "HF Power (Parasympathetic, ms\u00b2)",
+        "Mean |SHAP Value|": 0.0016,
+        "Physiological Mechanism": "High-frequency spectral band (0.15-0.40 Hz); reflects pure vagal parasympathetic modulation.",
+        "Rank": 16
+    },
+    {
+        "Feature": "mean_resp_rate",
+        "Clinical Label": "Respiration Rate (breaths/min)",
+        "Mean |SHAP Value|": 0.0014,
+        "Physiological Mechanism": "Resting respiratory frequency; tachypnea or irregularity frequently accompanies cardiopulmonary strain.",
+        "Rank": 17
+    },
+    {
+        "Feature": "vlf_power",
+        "Clinical Label": "VLF Power (ms\u00b2)",
+        "Mean |SHAP Value|": 0.0012,
+        "Physiological Mechanism": "Biomarker of autonomic cardiovascular regulation.",
+        "Rank": 18
+    }
+]

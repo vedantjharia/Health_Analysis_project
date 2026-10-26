@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall (Sensitivity),Specificity,F1-Score,Balanced Accuracy,ROC-AUC,TP,FP,TN,FN
+Dummy Baseline,0.4167,0.4,0.3333,0.5,0.3636,0.4167,0.4167,2,3,3,4
+Gradient Boosting,0.6667,0.75,0.5,0.8333,0.6,0.6667,0.9167,3,1,5,3
+Logistic Regression,0.6667,1.0,0.3333,1.0,0.5,0.6667,0.7778,2,0,6,4
+Random Forest,0.75,1.0,0.5,1.0,0.6667,0.75,0.9167,3,0,6,3
+Soft Voting Ensemble,0.6667,0.75,0.5,0.8333,0.6,0.6667,0.8056,3,1,5,3
+Support Vector Machine,0.75,1.0,0.5,1.0,0.6667,0.75,0.8889,3,0,6,3

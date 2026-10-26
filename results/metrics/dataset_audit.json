@@ -1,0 +1,32 @@
+{
+    "database_name": "PhysioNet Fantasia Database",
+    "source_url": "https://physionet.org/content/fantasia/",
+    "sampling_frequency_hz": 250,
+    "total_subjects": 20,
+    "young_control_count": 10,
+    "elderly_risk_count": 10,
+    "young_age_mean": 27.3,
+    "young_age_std": 4.605431575867782,
+    "elderly_age_mean": 73.7,
+    "elderly_age_std": 3.4365680554879163,
+    "duration_per_subject_minutes": 10.0,
+    "total_cohort_duration_hours": 3.33,
+    "window_duration_seconds": 300,
+    "window_overlap_seconds": 150,
+    "windows_per_subject": 3,
+    "total_window_segments": 60,
+    "ecg_voltage_range_mv": [
+        5.744,
+        11.77
+    ],
+    "resp_voltage_range_mv": [
+        7.626,
+        11.883
+    ],
+    "channels_recorded": [
+        "ECG (Lead II)",
+        "RESP (Thoracic plethysmograph bellows)"
+    ],
+    "missing_values_detected": 0,
+    "clinical_proxy_rationale": "Elderly group models autonomic cardiac degradation and vagal withdrawal risk."
+}
