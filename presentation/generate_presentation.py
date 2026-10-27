@@ -122,18 +122,11 @@ def create_deck(save_path: str):
     tf_ac.word_wrap = True
     
     p_auth1 = tf_ac.paragraphs[0]
-    p_auth1.text = "Lead Author: Vedant Jharia  |  Email: vedant.jharia.btech2023@sitnagpur.siu.edu.in"
+    p_auth1.text = "Author: Vedant Jharia  |  Email: vedant.jharia.btech2023@sitnagpur.siu.edu.in"
     p_auth1.font.name = "Arial"
     p_auth1.font.size = Pt(13)
     p_auth1.font.bold = True
     p_auth1.font.color.rgb = C_WHITE
-
-    p_auth2 = tf_ac.add_paragraph()
-    p_auth2.text = "Co-Author: [Co-Author / Team Member Name]  |  PRN: [Insert PRN]"
-    p_auth2.font.name = "Arial"
-    p_auth2.font.size = Pt(12)
-    p_auth2.font.color.rgb = C_WHITE
-    p_auth2.space_before = Pt(4)
 
     p_inst = tf_ac.add_paragraph()
     p_inst.text = "Institution: Symbiosis Institute of Technology, Nagpur (SIU)\nCourse: Business Intelligence / Machine Learning Mini-Project (CA3)  |  Academic Year: 2026"

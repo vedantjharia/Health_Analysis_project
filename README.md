@@ -13,8 +13,14 @@
 - **Course**: Machine Learning Mini-Project 
 - **Institution**: Symbiosis Institute of Technology (SIT), Nagpur
 - **Affiliation**: Symbiosis International (Deemed University), Pune, India
+<<<<<<< HEAD
 - **Research Team**:
   - **Vedant Jharia** — Email: `vedant.jharia.btech2023@sitnagpur.siu.edu.in`
+=======
+- **Submission Deadline**: 24 October 2026, 8:00 PM IST
+- **Author**: **Vedant Jharia** — Email: `vedant.jharia.btech2023@sitnagpur.siu.edu.in`
+
+>>>>>>> 1dacd10 (Necessary changes made)
 ---
 
 ## 📖 Executive Summary

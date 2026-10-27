@@ -180,7 +180,7 @@ def create_ieee_paper_pdf(save_path: str):
     # Title & Authors
     story.append(Paragraph("Explainable Machine Learning for Biosignal Heart Health Risk Assessment Using Continuous ECG and Respiratory Signals", title_style))
     story.append(Paragraph(
-        "<b>Vedant Jharia</b> (vedant.jharia.btech2023@sitnagpur.siu.edu.in) &bull; <b>[Co-Author / Team Member Name]</b> (PRN: [Insert PRN])<br/>"
+        "<b>Vedant Jharia</b> (vedant.jharia.btech2023@sitnagpur.siu.edu.in)<br/>"
         "<i>Department of Computer Science & Engineering, Symbiosis Institute of Technology, Nagpur<br/>"
         "Symbiosis International (Deemed University), Pune, India — Course: Business Intelligence / Machine Learning Mini-Project (CA3)</i>",
         author_style

@@ -87,13 +87,9 @@ def create_ieee_paper_docx(save_path: str):
     r_a1 = p_auth.add_run("Vedant Jharia\n")
     r_a1.font.bold = True
     r_a1.font.size = Pt(11)
-    r_d1 = p_auth.add_run("Department of Computer Science & Engineering\nSymbiosis Institute of Technology, Nagpur\nSymbiosis International (Deemed University), Pune, India\nEmail: vedant.jharia.btech2023@sitnagpur.siu.edu.in\n\n")
+    r_d1 = p_auth.add_run("Department of Computer Science & Engineering\nSymbiosis Institute of Technology, Nagpur\nSymbiosis International (Deemed University), Pune, India\nEmail: vedant.jharia.btech2023@sitnagpur.siu.edu.in\nCourse: Business Intelligence / Machine Learning Mini-Project (CA3)")
     r_d1.font.size = Pt(9.5)
 
- 
-    r_a2.font.size = Pt(11)
-    r_d2 = p_auth.add_run("Machine Learning Mini-Project\nSymbiosis Institute of Technology, Nagpur\nSymbiosis International (Deemed University), Pune, India")
-    r_d2.font.size = Pt(9.5)
 
     # 3. Abstract & Index Terms
     p_abs = doc.add_paragraph()
